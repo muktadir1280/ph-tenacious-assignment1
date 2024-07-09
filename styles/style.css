@@ -28,6 +28,7 @@ nav ul li {
 }
 
 .nav-btn {
+    font-family: "Azeret Mono", monospace;
     font-size: 20px;
     font-weight: 600;
     padding: 17px 24px;
@@ -38,4 +39,55 @@ nav ul li {
 
 .nav-btn:hover {
     background-color: #FD6E0A;
+    color: black;
+    opacity: 1;
+}
+
+
+/* banner part start */
+
+.banner-container {
+    background-image: url(../assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-img img {
+    margin-top: 50px;
+}
+
+.banner-title {
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.banner-desc {
+    font-size: 20px;
+    opacity: 0.8;
+    margin-top: 40px;
+}
+
+.banner-btn {
+    font-family: "Azeret Mono", monospace;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    padding: 21px 24px;
+    border-radius: 8px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.banner-btn:hover {
+    background-color: #FD6E0A;
+    color: black;
+    opacity: 1;
 }
