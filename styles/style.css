@@ -1,3 +1,41 @@
-h1 {
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Azeret Mono", monospace;
+    color: #0D1321;
+}
+
+
+/* navbar part start */
+
+.navbar-container {
+    padding: 50px 150px;
+}
+
+nav ul li {
+    font-size: 28px;
+    font-weight: 800;
+    list-style: none;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-btn {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 24px;
+    border-radius: 8px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.nav-btn:hover {
+    background-color: #FD6E0A;
 }
