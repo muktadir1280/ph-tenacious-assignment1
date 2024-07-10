@@ -1,181 +1,223 @@
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: "Azeret Mono", monospace;
-    color: #0D1321;
-}
-
-
-/* navbar part start */
-
-.navbar-container {
-    padding: 50px 150px;
-}
-
-nav ul li {
-    font-size: 28px;
-    font-weight: 800;
-    list-style: none;
-}
-
-.nav-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav-btn {
-    font-family: "Azeret Mono", monospace;
-    font-size: 20px;
-    font-weight: 600;
-    padding: 17px 24px;
-    border-radius: 8px;
-    opacity: 0.7;
-    cursor: pointer;
-}
-
-.nav-btn:hover {
-    background-color: #FD6E0A;
-    color: black;
-    opacity: 1;
-}
-
-
-/* banner part start */
-
-.banner-container {
-    background-image: url(../assets/Hero-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 750px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.banner-img img {
-    margin-top: 50px;
-}
-
-.banner-title {
-    font-size: 48px;
-    font-weight: 800;
-    text-align: center;
-    margin-top: 50px;
-}
-
-.banner-desc {
-    font-size: 20px;
-    opacity: 0.8;
-    margin-top: 40px;
-}
-
-.banner-btn {
-    font-family: "Azeret Mono", monospace;
-    font-size: 20px;
-    font-weight: 600;
-    background-color: black;
-    color: white;
-    padding: 21px 24px;
-    border-radius: 8px;
-    margin-top: 50px;
-    cursor: pointer;
-}
-
-.banner-btn:hover {
-    background-color: #FD6E0A;
-    color: black;
-    opacity: 1;
-}
-
-
-/* why part start */
-
-.why-bg {
-    background-color: #fafafb;
-    margin: 80px 97px;
-    border-radius: 16px;
-}
-
-.why-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 154px;
-}
-
-.why-title {
-    font-size: 32px;
-    font-weight: 800;
-    margin-top: 80px;
-}
-
-.why-desc {
-    margin-top: 25px;
-    font-size: 16px;
-    line-height: 30px;
-    opacity: 0.5;
-}
-
-.learn-container {
-    margin-top: 80px;
-}
-
-.learn-content {
-    background-color: #fcfcfd;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 100px;
-    padding: 0 145px;
-    margin: 0 97px;
-    margin-bottom: 70px;
-}
-
-.learn-title {
-    font-size: 24px;
-    font-weight: bold;
-    opacity: 0.7;
-}
-
-.learn-desc {
-    font-size: 16px;
-    opacity: 0.5;
-    margin-top: 20px;
-}
-
-.learn-btn {
-    font-family: "Azeret Mono", monospace;
-    padding: 12px 20px;
-    font-size: 20px;
-    font-weight: 600;
-    opacity: 0.5;
-    margin-top: 32px;
-    cursor: pointer;
-}
-
-.learn-btn:hover {
-    background-color: #FD6E0A;
-    opacity: 1;
-}
-
-
-/* why part end */
-
-
-/* inspiration part start  */
-
-.iframe-container iframe {
-    box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.4);
-    padding: 20px;
-    margin: 80px 380px;
-    border-radius: 16px;
-}
-
-
-/* inspiration part end  */
+    @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: "Azeret Mono", monospace;
+        color: #0D1321;
+    }
+    /* navbar part start */
+    
+    .navbar-container {
+        padding: 50px 150px;
+    }
+    
+    nav ul li {
+        font-size: 28px;
+        font-weight: 800;
+        list-style: none;
+    }
+    
+    .nav-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .nav-btn {
+        font-family: "Azeret Mono", monospace;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 17px 24px;
+        border-radius: 8px;
+        opacity: 0.7;
+        cursor: pointer;
+    }
+    
+    .nav-btn:hover {
+        background-color: #FD6E0A;
+        color: black;
+        opacity: 1;
+    }
+    /* banner part start */
+    
+    .banner-container {
+        background-image: url(../assets/Hero-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 750px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .banner-img img {
+        margin-top: 50px;
+    }
+    
+    .banner-title {
+        font-size: 48px;
+        font-weight: 800;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .banner-desc {
+        font-size: 20px;
+        opacity: 0.8;
+        margin-top: 40px;
+    }
+    
+    .banner-btn {
+        font-family: "Azeret Mono", monospace;
+        font-size: 20px;
+        font-weight: 600;
+        background-color: black;
+        color: white;
+        padding: 21px 24px;
+        border-radius: 8px;
+        margin-top: 50px;
+        cursor: pointer;
+    }
+    
+    .banner-btn:hover {
+        background-color: #FD6E0A;
+        color: black;
+        opacity: 1;
+    }
+    /* why part start */
+    
+    .why-bg {
+        background-color: #fafafb;
+        margin: 80px 97px;
+        border-radius: 16px;
+    }
+    
+    .why-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 154px;
+    }
+    
+    .why-title {
+        font-size: 32px;
+        font-weight: 800;
+        margin-top: 80px;
+    }
+    
+    .why-desc {
+        margin-top: 25px;
+        font-size: 16px;
+        line-height: 30px;
+        opacity: 0.5;
+    }
+    
+    .learn-container {
+        margin-top: 80px;
+    }
+    
+    .learn-content {
+        background-color: #fcfcfd;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 100px;
+        padding: 0 145px;
+        margin: 0 97px;
+        margin-bottom: 70px;
+    }
+    
+    .learn-title {
+        font-size: 24px;
+        font-weight: bold;
+        opacity: 0.7;
+    }
+    
+    .learn-desc {
+        font-size: 16px;
+        opacity: 0.5;
+        margin-top: 20px;
+    }
+    
+    .learn-btn {
+        font-family: "Azeret Mono", monospace;
+        padding: 12px 20px;
+        font-size: 20px;
+        font-weight: 600;
+        opacity: 0.5;
+        margin-top: 32px;
+        cursor: pointer;
+    }
+    
+    .learn-btn:hover {
+        background-color: #FD6E0A;
+        opacity: 1;
+    }
+    /* why part end */
+    /* inspiration part start  */
+    
+    .iframe-container iframe {
+        box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.4);
+        padding: 20px;
+        margin: 80px 380px;
+        border-radius: 16px;
+    }
+    /* inspiration part end  */
+    /* target part start  */
+    
+    .color-one {
+        background-color: #fff6f4;
+    }
+    
+    .color-two {
+        background-color: #f2f6fe;
+    }
+    
+    .color-three {
+        background-color: #fffdf2;
+    }
+    
+    .cards-container {
+        display: flex;
+        gap: 10px;
+        padding: 50px 150px;
+        justify-content: space-evenly;
+    }
+    
+    .card {
+        height: 300px;
+        width: 364px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+        border-radius: 16px;
+        padding: 40px;
+    }
+    
+    .card-title {
+        margin-top: 24px;
+        font-size: 24px;
+        font-weight: 800;
+    }
+    
+    .card-desc {
+        margin-top: 24px;
+        font-size: 16px;
+    }
+    
+    .card a {
+        font-size: 16px;
+        font-weight: bold;
+        color: black;
+    }
+    
+    .card .card-link {
+        margin-top: 24px;
+    }
+    
+    .card-link1 {
+        margin-top: 44px;
+    }
+    /* target part end  */
