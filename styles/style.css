@@ -264,3 +264,53 @@
         color: #FD6E0A;
     }
     /* next target end  */
+    /* support part start  */
+    
+    .support-container {
+        background-image: url(../assets/handshake.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin: 50px 150px;
+        padding: 64px 48px;
+        height: 280px;
+        border-radius: 16px;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: overlay;
+    }
+    
+    .support-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 64px 48px;
+    }
+    
+    .support-title {
+        font-size: 32px;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .support-desc,
+    .inner-flex {
+        font-size: 16px;
+        margin-top: 30px;
+        color: white;
+        opacity: 0.7;
+    }
+    
+    .input-container {
+        padding: 20px;
+        width: 550px;
+        border-radius: 8px;
+        background-color: white;
+    }
+    
+    .submit-btn {
+        padding: 20px;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 8px;
+    }
+    /* support part end */
