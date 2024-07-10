@@ -292,12 +292,15 @@
         color: white;
     }
     
-    .support-desc,
-    .inner-flex {
+    .support-desc {
         font-size: 16px;
         margin-top: 30px;
         color: white;
-        opacity: 0.7;
+        opacity: 0.9;
+    }
+    
+    .inner-flex {
+        margin-top: 30px;
     }
     
     .input-container {
@@ -305,12 +308,45 @@
         width: 550px;
         border-radius: 8px;
         background-color: white;
+        border: none;
+    }
+    
+    input::placeholder {
+        font-size: 16px;
+        font-family: "Azeret Mono", monospace;
     }
     
     .submit-btn {
-        padding: 20px;
+        font-family: "Azeret Mono", monospace;
+        padding: 18px;
         font-size: 16px;
         font-weight: 600;
         border-radius: 8px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .submit-btn:hover {
+        background-color: #FD6E0A;
     }
     /* support part end */
+    /* footer part start  */
+    
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 32px;
+        background-color: #f8f8f8;
+        align-items: center;
+        padding: 32px 150px;
+    }
+    
+    .footer-title {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .footer-img img {
+        margin: 0 10px;
+    }
+    /* footer part end */
